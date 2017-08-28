@@ -1,15 +1,63 @@
+<!-- Form -->
+<section class="box  features">
+ 
+  <h3>Organise a match</h3>
+   
+  <form method="" action="#action">
+    <div class="row uniform 50%">
+      <div class="6u 12u(mobilep)">
+          <h4>Date : </h4>
+          <input type="date" value="2017-08-30"/>
+      </div>
+      <div class="6u 12u(mobilep)">
+      <h4>Time : </h4>
+        <input type="time" class="form-control" name="time" value="10:00" />
+      </div>
+      <div class="6u 12u(mobilep)">
+      <h4>Location : </h4>
+        <input type="text" class="form-control" name="location" />
+      </div>
 
-  <section class="box special">
-    	<ul class="actions" style="margin-top: 5%;">
-         <li><a href="#find" class="button special icon fa-search">Find a Match</a></li>
-         <li><a href="#organise" class="button icon fa-flag-checkered">Organise a Match</a></li>
-           
-  </ul>
-    <header class="major">
-      <h2>Find a match around you
-      <br />
-      or organise the match</h2>
-    </header>
-    <span class="image featured"><img src="img/banner-3.jpg" alt="" /></span>
-  </section>
+      <div class="6u 12u(mobilep)">
+        <h4>No of players : </h4>
+
+        <input type="text" class="form-control" name="person" />
+      </div>
+
+    </div>
+   <!-- <div class="row uniform 50%">
+      <div class="12u">
+        <div class="select-wrapper">
+          <select name="category" id="category">
+            <option value="">- Category -</option>
+            <option value="1">Manufacturing</option>
+            <option value="1">Shipping</option>
+            <option value="1">Administration</option>
+            <option value="1">Human Resources</option>
+          </select>
+        </div>
+      </div>
+    </div>-->
+
+    <div class="row uniform 50%">
+      
+      <div class="6u 12u(narrower)">
+        <input type="checkbox" id="human" name="human" checked>
+        <label for="human">I am a human and not a robot</label>
+      </div>
+    </div>
+    <!--<div class="row uniform 50%">
+      <div class="12u">
+        <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+      </div>
+    </div>-->
+    <div class="row uniform">
+      <div class="12u">
+        <ul class="actions">
+          <li><a href="#action"><input type="button" value="Set" /></a></li>
+          <li><input type="reset" value="Reset" class="alt" /></li>
+        </ul>
+      </div>
+    </div>
+  </form>
 </section>

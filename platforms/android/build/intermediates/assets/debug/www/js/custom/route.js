@@ -45,6 +45,10 @@
                 templateUrl : 'pages/organise.html',
                 controller  : 'loginController'
             })
+           .when('/in', {
+                templateUrl : 'pages/in.html',
+                controller  : 'loginController'
+            })
             // route for the about page
             /*.when('/about', {
                 templateUrl : 'pages/about.html',
