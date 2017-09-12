@@ -11,21 +11,12 @@
 
 			<form method="post" action="#">
 				<div class="row uniform 50%">
-					<div class="4u 12u(narrower)">
-						<input type="radio" id="priority-low" name="priority" checked>
-						<label for="priority-low">Me</label>
-					</div>
-					<div class="4u 12u(narrower)">
-						<input type="radio" id="priority-normal" name="priority">
-						<label for="priority-normal">+1</label>
-					</div>
-					<div class="4u 12u(narrower)">
-						<input type="radio" id="priority-high" name="priority">
-						<label for="priority-high">+2</label>
-					</div>
 
 					<div class="4u 12u(narrower)">
-						<a href="#action" class="button special icon fa-soccer-ball-o">Goal...</a>
+						 <input type="number" class="form-control" name="location" />
+					</div>
+					<div class="4u 12u(narrower)">
+						<a href="#goal" class="button special icon fa-soccer-ball-o">Goal!</a>
 					</div>
 
 				</div>
@@ -35,4 +26,29 @@
 	
 	</div>
 </div>
+<style type="text/css">
+input[type="number"] {
+    height: 3em;
+}
+input[type="number"]{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: #f8f8f8;
+    border-radius: 6px;
+    border: solid 1px #e5e5e5;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+}
+input[type="number"] {
+    position: relative;
+    -ms-behavior: url(assets/js/ie/PIE.htc);
+    line-height: 3em;
+}
 
+</style>

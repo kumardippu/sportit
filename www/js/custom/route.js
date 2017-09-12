@@ -14,11 +14,6 @@
                 templateUrl : 'pages/login.html',
                 controller  : 'loginController'
             })
-
-            .when('/success', {
-                templateUrl : 'pages/success.html',
-                controller  : 'loginController'
-            })
             .when('/success', {
                 templateUrl : 'pages/success.html',
                 controller  : 'loginController'
@@ -47,6 +42,14 @@
             })
            .when('/in', {
                 templateUrl : 'pages/in.html',
+                controller  : 'loginController'
+            })
+            .when('/goal', {
+                templateUrl : 'pages/goal.html',
+                controller  : 'loginController'
+            })
+            .when('/set', {
+                templateUrl : 'pages/set_match.html',
                 controller  : 'loginController'
             })
             // route for the about page
